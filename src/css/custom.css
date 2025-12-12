@@ -1,0 +1,66 @@
+:root{
+	/*font family css variables*/
+	--courier: Courier New;
+	--arial: Arial;
+	--tang: "Tangerine", serif;
+	--Comic: "Comic Sans MS", cursive, sans-serif;
+	--Roman: Times new Roman;
+	--cursive: cursive;
+	--lucida: Lucida sans;
+	--palito: Palito;
+	--roboto: Roboto;
+
+	/*pairing font family*/
+	--verdSerif: Verdana, sans-serif;
+	--georSerif: Goergia, serif;
+
+	--darkgreen: #27391C;
+
+	/* background colors combination dark */
+	/* cofee bean */
+	--van_dyke: #48312B;
+	--kobicha: #603A28;
+
+	/* forest dawn */
+	--brunswick_green: #224942;
+	--castleton_green: #245b47;
+	--gun_metal: #223456;
+
+	/* mahogany */
+	--smokey_black: #0c0402;
+	--rich_black: #020202;
+	--eerie_black: #1a1a1a;
+
+	/* navy ombre */
+	--oxford_blue: #11244a;
+	--navy: #0b1c3e;
+	--black_pearl: #061831;
+
+	/* teal crystal */
+	--caribbean_current: #016764;
+	--deep_teal: #005958;
+	
+	/* slate forest */
+	--prussian_black: #122537;
+	--pickledBlue_wood: #2D4459;
+
+	/* emerald smoke */
+	--pakistan_green: #074300;
+	--calPoly_green: #125607;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: var(--lucida);
+	background-color: var(--black_pearl);
+}
+
+/* hide the type cursor */
+.typed-cursor{
+	display: none !important;
+}
