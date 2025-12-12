@@ -8,6 +8,6 @@ dotenv.config()
 export default defineConfig({
   plugins: [react()],
   server:{
-   base: '/spellingQuizBee',
+   base: process.env.VITE_BASE_PATH || '/spellingQuizBee',
   }
 })
